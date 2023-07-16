@@ -2,8 +2,74 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Space+Mono&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap');
 
+/*Shared styles */
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Space Mono', monospace;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    font-size: 1.4 rem;
+    font-weight: 600px;
+    color: #FFF;
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 700px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+nav li a {
+
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner-content {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bannet-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
 }
